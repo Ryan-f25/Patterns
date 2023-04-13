@@ -3,7 +3,7 @@ public class PatternMaker {
         PatternMaker stripes = new PatternMaker ();
     }
     public PatternMaker (){
-        pattern5();
+        pattern6();
 
     }
 
@@ -26,6 +26,11 @@ public class PatternMaker {
             System.out.print(x + "\t");
         }
     }
+    public void pattern4(){
+        for(int x = 1; x<7; x++) {
+                System.out.print(x*x + "\t");
+        }
+    }
 
     public void pattern5(){
         for(int x = 0; x<4; x++){
@@ -35,6 +40,13 @@ public class PatternMaker {
 
             }
             System.out.println();
+        }
+    }
+
+    public void pattern6(){
+        for(int x = 0; x<5; x++){
+            System.out.println(x+1);
+            System.out.print(" ");
         }
     }
 }
